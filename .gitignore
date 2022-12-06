@@ -1,0 +1,23 @@
+# Files autocreated by Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Notebook stuff
+/.ipynb_checkpoints
+
+# JupyterLab stuff
+.Trash-*/
+
+# Spyder stuff
+/.spyderproject
+
+/envs/
+
+# editors
+.vscode/
+
+cache.db
+
+.env
