@@ -3,7 +3,7 @@
 This repository has been prepared using [Anaconda Project](https://anaconda-project.readthedocs.io/en/latest/), which
 extends conda environments to provide cross-platform environment specifications and to launch defined commands.
 
-This project has also been published to [Anaconda.org](https://anaconda.org/defusco/...)
+This project has also been published to [Anaconda.org](https://anaconda.org/defusco/project/stable-diffusion-cpu) where you can download a Zip file or use `anaconda-project` to download and extract it.
 
 ## Setup
 
