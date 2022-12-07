@@ -1,4 +1,5 @@
 name: stable-diffusion-cpu
+
 packages:
 - python=3.9
 - notebook
@@ -7,6 +8,7 @@ packages:
 - diffusers
 - ftfy
 - ipywidgets
+
 channels:
 - defaults
 - conda-forge
