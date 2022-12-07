@@ -1,28 +1,22 @@
 name: stable-diffusion-cpu
-
 packages:
-  - python=3.9
-  - notebook
-  - scipy
-  - transformers
-  - diffusers
-  - ftfy
-  - ipywidgets
-  - panel
-
+- python=3.9
+- notebook
+- scipy
+- transformers
+- diffusers
+- ftfy
+- ipywidgets
 channels:
-  - defaults
-  - conda-forge
+- defaults
+- conda-forge
 
 commands:
   notebook:
     notebook: .
-  app:
-    unix: panel serve --show stable-diffusion.ipynb
-    win: panel serve --show stable-diffusion.ipynb
 
 platforms:
-  - osx-arm64
-  - osx-64
-  - linux-64
-  - win-64
+- osx-arm64
+- osx-64
+- linux-64
+- win-64
