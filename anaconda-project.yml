@@ -1,4 +1,5 @@
 name: stable-diffusion-cpu
+description: A quickstart Jupyter Notebook to run Stable Diffusion without a GPU
 
 packages:
 - python=3.9
