@@ -1,6 +1,6 @@
 name: stable-diffusion-cpu
 
-dependencies:
+packages:
   - python=3.9
   - notebook
   - scipy
@@ -13,6 +13,13 @@ dependencies:
 channels:
   - defaults
   - conda-forge
+
+commands:
+  notebook:
+    notebook: .
+  app:
+    unix: panel serve --show stable-diffusion.ipynb
+    win: panel serve --show stable-diffusion.ipynb
 
 platforms:
   - osx-arm64

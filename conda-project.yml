@@ -1,9 +1,0 @@
-name: stable-diffusion-cpu
-
-environments:
-  default:
-    - environment.yml
-
-commands:
-  notebook: jupyter notebook .
-
