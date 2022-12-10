@@ -28,5 +28,5 @@ To download, extract, prepare, and run this project using the published archive 
 If you'd rather work with a clone of this repository replace step 3 above with
 
 ```
-git clone https://github.com/anaconda/stable-diffusion-cpu.git
+git clone https://github.com/albertdefusco/stable-diffusion-cpu.git
 ```
